@@ -1,0 +1,172 @@
+.cabecario {
+    top: 0;
+    margin: 0 15px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.botao__lateral {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.botao__lateral .logo {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.botao__lateral .botao button{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.botao__lateral .botao img {
+    width: 20px;
+    height: 20px;
+}
+
+.botao__lateral .logo img {
+    width: 90px;
+    height: 50px;
+}
+
+.caixa__pesquisa {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.caixa__pesquisa input {
+    border: none;
+    margin: 5px;
+    width: 100%;
+}
+
+.caixa__pesquisa input::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.caixa__pesquisa {
+    display: flex;
+    justify-content: center;
+}
+
+.caixa__pesquisa .caixa {
+    border: 1px solid #a09e9c65;
+    border-radius: 40px;
+    height: 40px;
+    max-width: 670px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    margin-left: 150px;   
+}
+
+.campo__pesquisa {
+    border: none;
+    margin: 5px;
+    width: 100%;
+}
+
+.caixa .pesquisa img {
+    margin-bottom: 3px;
+    margin: 0 20px;
+}
+
+.caixa__pesquisa {
+    margin-right: 140px;
+}
+
+.pesquisa {
+    display: flex;
+    align-items: center;
+    border-left: 1px solid #a09e9c65;
+    height: 40px;
+}
+
+.microfone {
+    margin-left: 20px;
+    padding: 5px;
+    padding-bottom: 0;
+    background-color: #cfcdca65;
+    border-radius: 50px;
+}
+
+
+.caixa__pesquisa img {
+    width: 25px;
+    height: 25px;   
+    margin-top: 1px;
+}
+
+.items__direita {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+}
+
+.items__direita .botao__criar img {
+    width: 24px;
+    height: 24px;
+}
+
+.items__direita .botao__notificacoes img {
+    width: 24px;
+    height: 24px;
+}
+
+.items__direita .botao__conta img {
+    width: 35px;
+    height: 35px;
+}
+
+@media (max-width: 700px) {
+
+
+    .campo__pesquisa {
+        display: none;
+    }
+    
+    .pesquisa, .caixa__pesquisa .caixa  {
+        border: none;
+        background-color: transparent;
+    }
+    
+    .caixa__pesquisa .caixa{
+        display: flex;
+        justify-content: end;
+    }
+    
+    .items__direita {
+        margin-left: 10px;
+    }
+    
+    .caixa__pesquisa {
+        margin-right: 10px;
+       
+    }
+    
+    .caixa .pesquisa img {
+        margin-right: 0px;
+    }
+
+    .caixa__pesquisa {
+        margin-left: -100px;
+    }
+    
+    .items__direita {
+        gap: 20px;
+    }
+}

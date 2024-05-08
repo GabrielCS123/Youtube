@@ -1,0 +1,89 @@
+.menu {
+    position: fixed;
+    display: grid;
+    gap: 30px;
+    width: 80px;
+    margin-top: 20px;
+    margin-left: 15px;
+    grid-template-rows: auto auto auto 100%;
+    grid-template-columns: 40px;
+    top: 60px;
+}
+
+.menu a {
+    font-size: 11px;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.inicio img {
+    width: 25px;
+    height: 25px;
+    margin-bottom: 7px;
+}
+
+.shorts img {
+    width: 31px;
+    height: 30px;
+    margin-bottom: 7px;
+}
+
+.inscricoes img {
+    width: 27px;
+    height: 30px;
+    margin-bottom: 7px;
+}
+
+.voce img {
+    width: 25px;
+    height: 25px;
+    margin-bottom: 7px;
+}
+
+.menu a {
+    justify-items: center;
+}
+
+.menu .inicio a{
+    display: grid;
+    grid-template-columns: 45px;
+
+    margin-left: -2px;
+    justify-self: center;
+}
+
+.menu .shorts a{
+    display: grid;
+    grid-template-columns: 45px;
+
+    margin-left: -2px;
+    justify-self: center;
+}
+
+.menu .inscricoes a{
+    display: grid;
+    grid-template-columns: 45px;
+
+    margin-left: -2px;
+    justify-self: center;
+}
+
+.menu .inscricoes p {
+    margin-left: 1px;
+}
+
+.menu .voce a {
+    display: grid;
+    grid-template-columns: 45px;
+
+    margin-left: -3px;
+    justify-self: center;
+}
+
+@media (max-width: 700px) {
+    .menu {
+        display: none;
+    }
+}

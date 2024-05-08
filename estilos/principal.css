@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.principal {
+    display: grid;
+    margin-top: 60px;
+    margin-left: 80px;
+    overflow-x: hidden;
+}
+
+.categorias {
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+    overflow-x: scroll;
+}
+
+.categorias div {
+    padding: 5px;
+    border-radius: 8px;
+    background-color: rgb(196, 192, 192);
+    text-wrap: nowrap;
+    margin-bottom: 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.videos {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.descricao__video {
+    height: 315px;
+    width: 380px;
+    flex-grow: 1;
+    list-style: none;
+}
+
+.descricao__video img {
+    width: 50px;
+    height: 50px;
+}
+
+.caixa__descricao {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.caixa__descricao img {
+    margin-top: 0;
+}
+
+.caixa__descricao p {
+    margin-bottom: 3px;
+}
+
+.caixa__descricao .titulo {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.caixa__descricao .descricao {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(78, 77, 76);
+}
+
+@media (max-width: 700px) {
+    .principal {
+        margin-left: 24px;
+    }
+}
