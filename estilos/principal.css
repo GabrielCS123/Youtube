@@ -5,6 +5,7 @@
     margin-top: 60px;
     margin-left: 80px;
     overflow-x: hidden;
+    margin-right: 15px;
 }
 
 .categorias {
@@ -29,6 +30,10 @@
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
+}
+
+.videos iframe {
+    border-radius: 10px;
 }
 
 .descricao__video {
