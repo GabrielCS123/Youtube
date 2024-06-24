@@ -1,0 +1,42 @@
+.botao__menu {
+    display: none;
+}
+
+
+.menu__extendido {
+    display: none;
+    position: fixed;
+    width: auto;
+    height: 100%;
+    top: 0;
+    background-color: rgb(236, 236, 236);
+    padding: 10px 25px;
+}
+
+.menu__extendido {
+}
+
+.menu__ativado {
+    display: block;
+}
+
+.menu__extendido li {
+    display: flex;
+    margin-right: 5em;
+}
+
+.menu__extendido :nth-child(2) p{
+    margin-left: 21px;
+}
+
+.menu__extendido :nth-child(3) p{
+    margin-left: 15px;
+}
+
+.menu__extendido :nth-child(4) p{
+    margin-left: 19px;
+}
+
+.menu__extendido :nth-child(5) p{
+    margin-left: 20px;
+}

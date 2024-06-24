@@ -170,3 +170,16 @@
         gap: 20px;
     }
 }
+
+@media (max-width: 470px) {
+    
+    .botao__notificacoes {
+        display: none;
+    }
+    
+    .caixa__pesquisa .caixa  {
+        margin-left: 0px;   
+
+    }
+
+}
